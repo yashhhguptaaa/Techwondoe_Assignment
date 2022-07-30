@@ -5,7 +5,7 @@ import BannerImage from "../../assets/bannerImage.svg"
 const Banner = () => {
     return (
         <div
-            className="bg-cover bg-center  h-auto text-white object-fill">
+            className="bg-cover bg-center text-white object-fill">
             <img src={BannerImage} />
         </div>
     );
