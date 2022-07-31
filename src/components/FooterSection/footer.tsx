@@ -37,10 +37,10 @@ const Footer = () => {
                 <div>
                     <ul className="text-sm font-normal text-color text-left">
                         <li className="my-2">
-                            <a href="#" className="hover:underline ">+62 (0) 9 124 5470</a>
+                            <a href="#" className="underline ">+62 (0) 9 124 5470</a>
                         </li>
                         <li className="my-2">
-                            <a href="#" className="hover:underline ">careers@namespace.com</a>
+                            <a href="#" className="underline ">careers@namespace.com</a>
                         </li>
                     </ul>
                 </div>
