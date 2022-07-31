@@ -1,8 +1,9 @@
 import './App.css';
 import Nav from './components/NavbarSection/navbar';
 import Banner from './components/BannerSection/banner';
-import WhyAboutUs from './components/WhyAboutUsSection/whyAboutUs';
+import WhyAboutUs from './components/WhyChooseUsSection/whyChooseUs';
 import BannerSectionTwo from './components/BannerSectionTwo/BannerSectionTwo';
+import LatestNewsSection from './components/LatestNewsSection/latestNews';
 import React from 'react';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Banner />
       <WhyAboutUs />
       <BannerSectionTwo />
+      <LatestNewsSection />
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
