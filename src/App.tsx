@@ -6,6 +6,7 @@ import BannerSectionTwo from './components/BannerSectionTwo/BannerSectionTwo';
 import LatestNewsSection from './components/LatestNewsSection/latestNews';
 import CandidateEmployersSection from './components/CandidateEmployerSection/CandidateEmployer';
 import CarrerExpertSection from './components/CarrerExpertSection/careerExpert';
+import Footer from './components/FooterSection/footer';
 import React from 'react';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
       <LatestNewsSection />
       <CandidateEmployersSection />
       <CarrerExpertSection />
-      <header className="App-header">
+      <Footer />
+      {/* <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -29,7 +31,7 @@ function App() {
           rel="noopener noreferrer">
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
