@@ -5,6 +5,7 @@ import WhyAboutUs from './components/WhyChooseUsSection/whyChooseUs';
 import BannerSectionTwo from './components/BannerSectionTwo/BannerSectionTwo';
 import LatestNewsSection from './components/LatestNewsSection/latestNews';
 import CandidateEmployersSection from './components/CandidateEmployerSection/CandidateEmployer';
+import CarrerExpertSection from './components/CarrerExpertSection/careerExpert';
 import React from 'react';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <BannerSectionTwo />
       <LatestNewsSection />
       <CandidateEmployersSection />
+      <CarrerExpertSection />
       <header className="App-header">
         <p>
           Edit <code>src/App.js</code> and save to reload.
