@@ -2,7 +2,7 @@
 import React from "react";
 import LatestNewsOne from "../../assets/latestNewsOne.svg";
 import LatestNewsTwo from "../../assets/latestNewsTwo.svg";
-import LatestNewsThree from "../../assets/latestNewsThree.svg";
+import LatestNewsThree from '../../assets/latestNewsThree.svg';
 
 const LatestNewsSection = () => {
     return <div className="w-full flex justify-center flex-col items-center mt-32">
