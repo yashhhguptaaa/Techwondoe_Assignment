@@ -46,8 +46,6 @@ const HomePageProvider: React.FC<React.ReactNode> = ({ children }) => {
     const [footerDesc, setFooterDesc] = useState(null);
     const { getHomePageDetails } = useContentful();
 
-
-
     useEffect(() => {
         getHomePageDetails().then((response) => {
             setCandidateEmployersSection(response.CandidateEmployersSection["details"]);
