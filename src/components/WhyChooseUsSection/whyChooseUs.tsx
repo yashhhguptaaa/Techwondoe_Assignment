@@ -1,19 +1,23 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 /* eslint-disable prettier/prettier */
-import React from 'react';
+import React, { useContext } from 'react';
+import { HomePageContext } from "../../Context";
 
 const WhyChooseUs = () => {
+    const { whyChooseUs } = useContext(HomePageContext)
     return <div className="w-full flex justify-center flex-col items-center mt-32">
         <p className='font-semibold text-4xl'
             style={{
                 lineHeight: "60px"
             }}
         >
-            Why choose us?
+            {whyChooseUs?.title ? whyChooseUs?.title : ""}
         </p>
         <div className='mt-4 resize text-center flex flex-row justify-center font-normal text-lg'>
             <p
                 className='ml-4 mr-4'
-            >We have decades of experience, having successfully recruited across the globle for many years.
+            >{whyChooseUs?.description ? whyChooseUs?.description : ""}
             </p>
         </div>
 
