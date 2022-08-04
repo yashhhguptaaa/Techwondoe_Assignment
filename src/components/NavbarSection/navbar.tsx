@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Transition } from '@headlessui/react';
 
-function Nav() {
+export default function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
@@ -173,5 +173,3 @@ function Nav() {
     </div>
   );
 }
-
-export default Nav;

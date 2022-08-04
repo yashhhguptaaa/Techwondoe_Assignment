@@ -7,11 +7,11 @@ import { Primary } from "../../stories/Button.stories";
 
 const LatestNewsSection = () => {
     const { latestNewsSection } = useContext(HomePageContext)
-    return <div className="w-full flex justify-center flex-col items-center mt-32">
+    return <div className="w-full flex justify-center flex-col items-center mt-14 sm:mt-14 lg:mt-32">
         <div className='flex flex-row items-end justify-between w-full lg:w-4/6 md:w-full sm:w-full'>
             <div>
                 <span
-                    className='mt-4 resize text-center ml-8 lg:ml-4 sm:ml-8 font-semibold text-base lg:text-4xl sm:text-base'
+                    className='mt-4 resize text-center ml-8 lg:ml-4 sm:ml-8 font-semibold text-2xl lg:text-4xl sm:text-2xl'
                 >Latest News
                 </span>
             </div>
@@ -48,7 +48,7 @@ const LatestNewsSection = () => {
                                             <p className="my-1 text-xl text-left font-semibold h-20" style={{ color: "#111012" }}>
                                                 {news?.title ? news?.title : ""}
                                             </p>
-                                            <p className="my-4 text-lg text-left font-medium" style={{ color: "#E6692E" }}>
+                                            <p className="mt-4 text-lg text-left font-medium" style={{ color: "#E6692E" }}>
                                                 Read more ↪
                                             </p>
                                         </div>

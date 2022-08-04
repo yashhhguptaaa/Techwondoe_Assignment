@@ -8,8 +8,7 @@ import CandidateEmployersSection from './components/CandidateEmployerSection/Can
 import CarrerExpertSection from './components/CarrerExpertSection/careerExpert';
 import Footer from './components/FooterSection/footer';
 import CopyrightSection from './components/CopyrightSection/copyrightSection';
-import useContentful from './useContentful';
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 function App() {
   return (
@@ -23,18 +22,6 @@ function App() {
       <CarrerExpertSection />
       <Footer />
       <CopyrightSection />
-      {/* <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }

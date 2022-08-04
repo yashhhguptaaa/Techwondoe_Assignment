@@ -5,9 +5,9 @@ import React, { useContext } from 'react';
 import { HomePageContext } from "../../Context";
 import { WhyChooseUsTemplateOne } from '../../stories/WhyChooseUs.stories'
 
-const WhyChooseUs = () => {
+export default function WhyChooseUs() {
     const { whyChooseUs } = useContext(HomePageContext)
-    return <div className="w-full flex justify-center flex-col items-center mt-32">
+    return (<div className="w-full flex justify-center flex-col items-center mt-12 lg:mt-32 md:mt-20 sm:mt-12">
         <p className='font-semibold text-4xl'
             style={{
                 lineHeight: "60px"
@@ -30,7 +30,5 @@ const WhyChooseUs = () => {
             <WhyChooseUsTemplateOne title="Accounting Servies" description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vulputate aliquam arcu .' />
             <WhyChooseUsTemplateOne title="Design & Build Services" description='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim vulputate aliquam arcu .' />
         </div>
-    </div>;
+    </div>);
 };
-
-export default WhyChooseUs;

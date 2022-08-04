@@ -8,7 +8,7 @@ import EmployersImage from '../../assets/employersImage.svg';
 
 const CandidateEmployersSection = () => {
     const { candidateEmployersSection } = useContext(HomePageContext)
-    return <div className="w-full flex justify-center flex-col items-center mt-32" style={{
+    return <div className="w-full flex justify-center flex-col items-center mt-20 lg:mt-32 sm:mt-20" style={{
         backgroundColor: "#EDEDED"
     }}>
         <div className="grid gap-4 mt-12 lg:mt-28 sm:mt-12 lg:w-4/6 md:w-3/4 sm:w-2/5 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 lg:grid-rows-1 md:grid-rows-2 sm:grid-rows-2 mb-12 lg:mb-28 sm:mb-12">
