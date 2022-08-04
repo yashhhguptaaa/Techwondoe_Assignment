@@ -20,7 +20,7 @@ Techwondoe's Assignment Deployment Link: [https://techwondoe-assignment-eight.ve
 - [x] Create Typography components for H1, H2, Paragraph
 - [x] Use Storybook for 3 UI components
     - [x] Button - Primary and secondary
-    - [x]Typography - H1, H2, Paragraph
-    - [x]Sub component of the Why Choose us section with icon, title and paragraph.
+    - [x] Typography - H1, H2, Paragraph
+    - [x] Sub component of the Why Choose us section with icon, title and paragraph.
 - [x] Host the page on Vercel.
 - [x] Readme file on how to deploy and run the service.
