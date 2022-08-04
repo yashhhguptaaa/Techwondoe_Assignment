@@ -3,9 +3,7 @@
 /* eslint-disable prettier/prettier */
 import React, { useContext } from "react";
 import { HomePageContext } from "../../Context";
-import LatestNewsOne from "../../assets/latestNewsOne.svg";
-import LatestNewsTwo from "../../assets/latestNewsTwo.svg";
-import LatestNewsThree from '../../assets/latestNewsThree.svg';
+import { Primary } from "../../stories/Button.stories";
 
 const LatestNewsSection = () => {
     const { latestNewsSection } = useContext(HomePageContext)
@@ -13,14 +11,14 @@ const LatestNewsSection = () => {
         <div className='flex flex-row items-end justify-between w-full lg:w-4/6 md:w-full sm:w-full'>
             <div>
                 <span
-                    className='mt-4 resize text-center ml-6 lg:ml-5 sm:ml-10 font-semibold text-base lg:text-4xl sm:text-base'
+                    className='mt-4 resize text-center ml-8 lg:ml-4 sm:ml-8 font-semibold text-base lg:text-4xl sm:text-base'
                 >Latest News
                 </span>
             </div>
             <div>
-                <button className="flex flex-row justify-start mr-6 lg:mr-5 bg-orange-500 text-white py-2 px-4 sm:border-collapse lg:rounded-md md:rounded-md ">
-                    View All
-                </button>
+                <div className='mr-2 sm:mr-2 py-2 px-4 font-bold '>
+                    <Primary label="View All" backgroundColor="#F87431" color="white" size="large" fontSize="15px" />
+                </div>
             </div>
         </div>
 

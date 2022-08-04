@@ -18,6 +18,9 @@ interface ButtonProps {
    * Button contents
    */
   label: string;
+  color: string;
+  borderRadius: number;
+  fontSize: string;
   /**
    * Optional click handler
    */
@@ -31,6 +34,9 @@ export const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
+  color = 'white',
+  borderRadius = 7,
+  fontSize = `10px`,
   label,
   ...props
 }: ButtonProps) => {
@@ -38,8 +44,9 @@ export const Button = ({
   return (
     <button
       type="button"
+      // eslint-disable-next-line prettier/prettier
       className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      style={{ backgroundColor }}
+      style={{ backgroundColor, color, borderRadius, fontSize }}
       {...props}>
       {label}
     </button>

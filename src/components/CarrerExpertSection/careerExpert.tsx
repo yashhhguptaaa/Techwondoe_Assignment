@@ -2,6 +2,7 @@
 // @ts-nocheck
 /* eslint-disable prettier/prettier */
 import React, { useContext } from 'react';
+import { Primary } from "../../stories/Button.stories";
 import { HomePageContext } from "../../Context";
 
 const CarrerExpertSection = () => {
@@ -20,9 +21,9 @@ const CarrerExpertSection = () => {
             </p>
 
         </div>
-        <button className="mt-11 mb-14 lg:mb-24 sm:mb-14 mr-6 lg:mr-5 bg-white text-orange-500 py-2 px-4 sm:border-collapse lg:rounded-md md:rounded-md ">
-            Get in touch
-        </button>
+        <div className='mt-11 mb-14 lg:mb-24 sm:mb-14 mr-6 lg:mr-5 font-bold '>
+            <Primary label="Get in touch" backgroundColor="white" color="#F87431" size="large" fontSize="15px" />
+        </div>
     </div>;
 };
 
