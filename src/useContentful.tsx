@@ -2,9 +2,9 @@
 import { createClient } from "contentful";
 const useContentful = () => {
     const client = createClient({
-        space: "wtmhaajbkkra",
-        accessToken: "nmvVfQOIjQNY8eyxWUsCM-R6fO2akBLSO0C03cBPD-U",
-        host: "preview.contentful.com"
+        space: `${process.env.REACT_APP_CONTENTFUL_SPACE_KEY}`,
+        accessToken: `${process.env.REACT_APP_CONTENTFUL_ACCESSTOKEN}`,
+        host: `${process.env.REACT_APP_CONTENTFUL_HOST}`
     });
 
     const getHomePageDetails = async () => {
